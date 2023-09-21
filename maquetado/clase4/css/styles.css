@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #004466;
+    margin: 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    left: 100px;
+    bottom: 20px;
+    right: 10px;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 200px;
+
+}
+
+.menu {
+    outline: blue solid;
+    height: 300px;
+}
+
+.menu :nth-child(1) {
+    left: 450px;
+
+}
+
+.menu :nth-child(2) {
+    left: 470px;
+}
+
+.menu :nth-child(3) {
+    left:540px;
+}
+
+.menu :nth-child(4) {
+    left: 0;
+    top: 25 px;
+}

@@ -1,0 +1,8 @@
+@media screen and (max width: 600px) {
+    .sectionResponsive {
+        width: 40%;
+        color:white;
+        background-color: black;
+        border: none;
+    }
+}
